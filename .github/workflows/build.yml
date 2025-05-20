@@ -44,6 +44,8 @@ jobs:
       - name: Build and Test with JaCoCo
         run: mvn clean verify jacoco:report-aggregate
 
+      - name: Check if jacoco.xml exists
+        run: ls -lh target/site/jacoco-aggregate/jacoco.xml
       - name: SonarQube Analysis
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
