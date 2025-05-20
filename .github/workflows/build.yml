@@ -50,5 +50,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
-          -Dsonar.projectKey=adela-domokosova_wren-commons-sonar-test \
-          -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco-aggregate/jacoco.xml
+          -Dsonar.projectKey=adela-domokosova_wren-commons-sonar-test
