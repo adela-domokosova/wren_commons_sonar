@@ -30,8 +30,7 @@
         </dependency>
         <dependency>
             <groupId>org.wrensecurity.commons</groupId>
-            <artifactId>json-crypto</artifactId>
-            <version>22.6.0-SNAPSHOT</version>
+            <artifactId>i18n-core</artifactId>
         </dependency>
     </dependencies>
     <build>
