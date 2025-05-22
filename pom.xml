@@ -129,7 +129,6 @@
         <module>json-ref</module>
         <module>json-schema</module>
         <module>json-web-token</module>
-        <module>rest</module>
         <module>self-service</module>
         <module>util</module>
         <module>security</module>
